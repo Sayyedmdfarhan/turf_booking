@@ -1,0 +1,93 @@
+.d-img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.img-btn{
+position: absolute;
+background: rgb(255, 208, 0);
+font-weight: 600;
+font-family: monospace;
+color: #000000;
+border-radius: 8px;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+/* top: 60%; */
+/* background-color: #04AA6D; */
+border: none;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.status-box{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid;
+}
+
+/* SellWithUs.css */
+.sell-with-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .sell-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .sell-description {
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .card {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    color: #555;
+  }
+  

@@ -1,0 +1,45 @@
+/* PavilionTable.css */
+
+/* Container */
+.table-container {
+  overflow-x: auto;
+  padding: 16px;
+  min-height: 100vh;
+}
+
+/* Table Styling */
+.pavilion-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Table Headers */
+.header-row {
+  background-color: #fbbf24; /* Orange */
+  font-weight: bold;
+}
+
+.time-slot-header,
+.day-header {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Table Rows */
+.data-row:nth-child(even) {
+  background-color: #d1fae5; /* Light green */
+}
+
+/* Table Cells */
+.time-slot,
+.data-cell {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Booked Slots */
+.booked {
+  background-color: #6b7280; /* Dark Gray */
+  color: white;
+}
